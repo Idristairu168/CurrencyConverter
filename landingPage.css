@@ -1,62 +1,71 @@
-/* Global styles for the app */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.login-container {
+.landing-container {
     background-color: white;
-    width: 300px;
-    padding: 20px;
-    margin: 100px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.login-container h2 {
+.logo-section {
     margin-bottom: 20px;
 }
 
-.login-container form {
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.text-section h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.button-section {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
-.login-container label {
-    text-align: left;
-    margin-bottom: 5px;
-}
-
-.login-container input {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
+.btn {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
     border-radius: 5px;
-    width: 100%;
+    transition: background-color 0.3s ease;
+    width: 45%;
+    text-align: center;
 }
 
-.login-container button {
-    padding: 10px;
+.login-btn {
     background-color: #4CAF50;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.login-container button:hover {
-    background-color: #45a049;
+.signup-btn {
+    background-color: #007BFF;
+    color: white;
 }
 
-.login-container a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.login-container a:hover {
-    text-decoration: underline;
+.btn:hover {
+    opacity: 0.8;
 }

@@ -3,24 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Currency Converter</title>
-    <link rel="stylesheet" href="currencyConvert.css">
+    <title>Currency Converter - Welcome</title>
+    <link rel="stylesheet" href="landingpage.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login to Currency Converter</h2>
-        <form id="login-form">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+    <div class="landing-container">
+        <!-- Logo Section -->
+        <div class="logo-section">
+            <img src="logo.png" alt="Currency Converter Logo" class="logo">
+        </div>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+        <!-- Text Section -->
+        <div class="text-section">
+            <h1>Welcome to Currency Converter</h1>
+            <p>Convert currencies from around the world to Nigerian Naira (NGN) instantly. Easy, fast, and accurate conversion rates at your fingertips.</p>
+        </div>
 
-            <button type="submit">Login</button>
-            <p>New User? <a href="#" id="signup-link">Sign Up</a></p>
-        </form>
+        <!-- Button Section -->
+        <div class="button-section">
+            <a href="login.html" class="btn login-btn">Login</a>
+            <a href="signup.html" class="btn signup-btn">Sign Up</a>
+        </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
