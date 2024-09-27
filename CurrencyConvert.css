@@ -1,62 +1,54 @@
-/* Global styles for the app */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+}
+
+.converter {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h1 {
     color: #333;
 }
 
-.login-container {
-    background-color: white;
-    width: 300px;
-    padding: 20px;
-    margin: 100px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.login-container h2 {
-    margin-bottom: 20px;
-}
-
-.login-container form {
-    display: flex;
-    flex-direction: column;
-}
-
-.login-container label {
-    text-align: left;
+label {
+    display: block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
-.login-container input {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+select, input {
     width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.login-container button {
-    padding: 10px;
+button {
     background-color: #4CAF50;
     color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
-.login-container button:hover {
+button:hover {
     background-color: #45a049;
 }
 
-.login-container a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-.login-container a:hover {
-    text-decoration: underline;
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
 }
