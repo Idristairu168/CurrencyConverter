@@ -1,7 +1,10 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 50px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,24 +13,21 @@ body {
     height: 100vh;
 }
 
-.landing-container {
-    background-color: white;
-    text-align: center;
-    width: 90%;
-    max-width: 500px;
-    padding: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+.header {
+    height: 20px;
+    width: 100px;
+    color: red;
 }
 
 .logo-section {
     margin-bottom: 20px;
+  
 }
 
 .logo-section img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
     overflow: hidden;
 }
 
