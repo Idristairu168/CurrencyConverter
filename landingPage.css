@@ -24,9 +24,10 @@ body {
     margin-bottom: 20px;
 }
 
-.logo {
-    width: 150px;
-    height: auto;
+.logo-section img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
 }
 
 .text-section h1 {
